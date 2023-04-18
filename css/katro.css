@@ -1,0 +1,75 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.title {
+    font-size: 67px;
+    color: #6e7499;
+    margin: 10px auto;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 415px;
+    margin: 7px auto;
+    background-color: #8a7861;
+    color: #fafafa;
+    border: 2px solid #503106;
+    box-shadow: 4px 4px 4px 4px #503106;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #8b5a15;
+    border: 2px solid #503106;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+.cell:active{
+    transform: scale(1.5);
+}
+.cell:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+    color:white
+    font-size:7px;
+
+}
+
+.game--status {
+    font-size: 50px;
+    color: #d7a62f;
+    margin: 20px auto;
+}
+
+.user1{
+    display: flow-root;
+    position: absolute;
+    bottom: 67%;
+    left: 22%;
+    color:#8b5a15;
+    font-size: 33px;
+}
+.user2{
+    display: flow-root;
+    position: absolute;
+    bottom: 33%;
+    left: 22%;
+    color:#8b5a15;
+    font-size: 33px;
+
+}
+body{
+    background: url(../sary1.png) no-repeat fixed center/cover;
+    background-blend-mode:blur ;
+}
+

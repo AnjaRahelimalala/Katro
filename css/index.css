@@ -1,0 +1,41 @@
+.btn-str{
+    position: absolute;
+    z-index: 100;
+    top:70%;
+    background-color: #324603;
+    width: 100px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgb(17, 66, 17);
+    bottom:70%;
+    left:45%;
+}
+.btn-str:active{
+    transform: scale(1.5);
+}
+.btn-str:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+    color:rgb(17, 66, 17);
+    font-size:20px;
+
+}
+h1{
+    color: #3f4d1f;
+    font-style:bold;
+    text-shadow: 1px 3px #1a200d;
+   font-size: 100px;
+}
+
+.titl{
+    position: absolute;
+    bottom:50%;
+    left:25%;
+}
+
+body{
+    background: url(../images.jpg) no-repeat fixed center/cover;
+    background-blend-mode:blur ;
+}
